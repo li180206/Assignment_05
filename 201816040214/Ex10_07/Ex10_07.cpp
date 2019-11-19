@@ -11,14 +11,14 @@ int main()
     //2D array of numbers
     int row, column, test;
     cout << "Please input the row of the 2D array:";
-    cin >> row;
+    cin >> row;//input the row of 2D array  
     cout << "Please input the column of the 2D array:";
-    cin >> column;
+    cin >> column;//input the column of 2D array  
     cout << "Please input values to the 2D array:\n";
-    DoubleSubscriptedArray a(row,column), b(row, column);
-    cin >> a;
+    DoubleSubscriptedArray a(row,column), b(row, column);//construct 2 array
+    cin >> a;//put values into 2D array a
     cout << "Output the 2D array a:\n";
-    cout << a;
+    cout << a;//print values into 2D array a
 
     cout << "Output array[0][0]:\n";
     cout << setw(10) << a(1,1);
